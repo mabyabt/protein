@@ -6,7 +6,7 @@
 void main()		//main function declaration
 {
 	read();
- 
+
  
  
  return 0;
