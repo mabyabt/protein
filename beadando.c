@@ -1,13 +1,39 @@
+
+
 #include<stdio.h>	//Pre-processor directive
 
+#include "pro.h"
 
-#include "read.h"
+
 
 void main()		//main function declaration
 {
-	read();
+	
+	
+	freopen("aminosav.txt", "r", stdin);
+	
+	
+	char s[128] ;
+	int i=0;
+	
+	while(i!=128){
+		scanf("%c" , &s[i]);
+		
+		//	 printf ("%c" , s[i]);
+		
+		 i++;
+		
+		
+	}
+	
+	proc(s);
+		 
+	
+	 
 
+	
+	 
+	
+	
  
- 
- return 0;
 }
